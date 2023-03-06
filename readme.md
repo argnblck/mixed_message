@@ -4,5 +4,3 @@
 
 [CodeCodemy]
 > Это проект для портфолио в конце раздела Software Engineering Foundations на [CodeCodemy]: /https://www.codecademy.com.
-
-[CodeCodemy]: /https://www.codecademy.com.
