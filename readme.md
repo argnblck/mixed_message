@@ -2,6 +2,6 @@
 
 При каждом запуске, эта программа, выдает рандомный вариант широко известного мема про волка: "Волк слабее льва и тигра, но в цирке он не выступает.".
 
-
-> Это проект для портфолио в конце раздела Software Engineering Foundations на <a href="https://www.codecademy.com" target="_blank">codecodemy</a>.
+[CodeCademy]: https://www.codecademy.com
+> Это проект для портфолио в конце раздела Software Engineering Foundations на [CodeCademy].
 
