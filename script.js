@@ -6,18 +6,21 @@ const getMeme = () => {
         verb: ['выступает', 'работает', 'покупает', 'дерется', 'скандалит']
     }
 
-    let animal1 = words.animals[Math.floor(Math.random() * (words.animals.length))];
+    getWord = (array) => {
+        return array[Math.floor(Math.random() * (array.length))];
+    }
 
-    let animal2 = words.animals[Math.floor(Math.random() * (words.animals.length))];
+    let animal1 = getWord(words.animals);
 
-    const feature = words.feature[Math.floor(Math.random() * (words.feature.length))];
+    let animal2 = getWord(words.animals);
 
-    const place = words.place[Math.floor(Math.random() * (words.place.length))];
+    const feature = getWord(words.feature);
 
-    const verb = words.verb[Math.floor(Math.random() * (words.verb.length))];
+    const place = getWord(words.place);
+
+    const verb = getWord(words.verb);
 
     while (animal1 === animal2) {
-        console.log(animal2);
         animal2 = words.animals[Math.floor(Math.random() * (words.animals.length))];
     }
 
